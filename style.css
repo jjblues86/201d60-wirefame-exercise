@@ -1,3 +1,12 @@
+body{
+
+}
+
+nav{
+  background-color: grey;
+  padding: 5px;
+  margin: 20px;
+}
 nav li{
   display: inline;
   margin: 35px;
@@ -9,56 +18,56 @@ nav img{
   padding: 5px;
 }
 
-/* article {
+figcaption {
   padding: 5px;
-  margin: 0 auto;
-} */
+  margin: 20px;
+} 
 
 section div{
   display: inline-block;
   padding: 5px;
-  margin: 0 auto 5px;
+  margin: 20px;
+  margin-right: -3px;
 
 }
 
 article img{
   float: left;
-  padding: 5px 5px;
-  margin: 0 auto;
-  /* background: #4CAF50; */
-  /* color: white; */
- 
-  /* border: 1px solid #ccc;  */
+  padding: 5px;
+  margin: 15px;
 }
 
-article p{
-  padding: 5px;
+ p{
   text-align: justify;
-  margin: auto;
-  /* position: relative;
-  bottom: 5px;
-  overflow: scroll;
-  width: 50%; */
-  padding: 15px;
-  /* width: 50%; */
-  height: 100px;
+  padding: 8px;
+  height: 305px;
   overflow-y: scroll;
+  bottom: 25px;
+  margin-right: 190px;
 } 
 
-article h3{
+h3{
   padding: 15px;
-  /* position: absolute; */
-  /* top: 1320px; */
-  /* bottom: 5px; */
+  position: relative;
+  margin: 5px;
+  bottom: -5px;
 }
 
-article button{
+button{
   background-color: black;
   color: white;
+  display: inline-block;
+  border-radius: 12px;
+  transition-duration: 0.4s;
 } 
 
+button:hover{
+  background-color: cyan;
+}
+
 footer div{
-  background-color: #ddd;
+  background-color: grey;
   height: 40px;
-  z-index: 1;
+  padding: 10px;
+  margin: 20px;
 }
