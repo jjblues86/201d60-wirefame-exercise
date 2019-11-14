@@ -1,12 +1,9 @@
-body{
-
-}
-
 nav{
-  background-color: grey;
+  background-color: #FF7F50;
   padding: 5px;
   margin: 20px;
 }
+
 nav li{
   display: inline;
   margin: 35px;
@@ -66,7 +63,7 @@ button:hover{
 }
 
 footer div{
-  background-color: grey;
+  background-color: #FF7F50;
   height: 40px;
   padding: 10px;
   margin: 20px;
